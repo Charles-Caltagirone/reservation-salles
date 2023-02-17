@@ -1,0 +1,78 @@
+body {
+  background-image: url(../assets/salle3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+table {
+  backdrop-filter: blur(50px);
+  background-color: rgba(255, 255, 255, 0.13);
+  margin-top: 20px;
+}
+.planning {
+  text-align: center;
+}
+.reserver {
+  background-color: darkred;
+  width: 100%;
+  color: #fff;
+}
+.case {
+  display: inline-block;
+  background: green;
+  width: 100%;
+  min-height: 50px;
+}
+.weekend {
+  display: inline-block;
+  background: black;
+  width: 100%;
+  min-height: 50px;
+}
+
+/* html,
+body,
+main,
+table,
+td,
+.weekend {
+  height: 100%;
+} */
+
+/* .table-bordered {
+  border-color: #000;
+} */
+/* @media screen and (max-width: 1200px) {
+  .container {
+    width: 100% !important;
+    margin: 0;
+  }
+} */
+@media screen and (max-width: 768px) {
+  /* header, footer, .planning{
+    width: 155%;
+  } */
+  /* .row{
+    margin-right: 15px;
+  } */
+}
+@media screen and (max-width: 425px) {
+  header,
+  footer,
+  .planning {
+    width: 155%;
+  }
+}
+@media screen and (max-width: 375px) {
+  header,
+  footer,
+  .planning {
+    width: 180%;
+  }
+}
+@media screen and (max-width: 320px) {
+  header,
+  footer,
+  .planning {
+    width: 205%;
+  }
+}
